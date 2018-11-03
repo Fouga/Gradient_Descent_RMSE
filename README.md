@@ -14,14 +14,14 @@ is the output of the model. The training can be performed on one or several pred
 
 ## Content   
 
-The **GradientUtils.R**  containes functions:
+The **GradientUtils.R**  contains functions:
 
 * `GadientDescent` - is a function that minimizes `RMSE` in order to obtain optimal linear model parameters (slope and bias),
-* `RMSE` - is a loss (cost) fucntion calcualted as a root of mean squares,
+* `RMSE` - is a loss (cost) function calculated as a root of mean squares,
 * `grad` - is a partial derivative of `RMSE` by weights,
 * `zscore` - a function that normalizes rowwise predictors values. 
 
-## Argumnets of the functions: 
+## Arguments of the functions: 
 
 `GradientDescent(x_standart,y,epochs, learning_rate)`:
 
